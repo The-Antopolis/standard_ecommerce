@@ -1,0 +1,211 @@
+/* ==upload picture== */
+.upload-picture {
+  text-align: center;
+  padding-top: 7rem;
+}
+.upload-picture img {
+  width: 16rem;
+  height: 16rem;
+  border-radius: 50%;
+}
+
+.my_profile_body {
+  margin-top: 4.8rem;
+  padding-bottom: 25.875rem;
+}
+
+.my_profile_body .nav-tabs {
+  max-width: 107.25rem;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  border: none;
+  border-bottom: 1px solid var(--gray-3);
+}
+.my_profile_body .tab-content .tab-pane {
+  max-width: 107.25rem;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 4rem;
+}
+.my_profile_body .tab-content .tab-pane .default_info .edit_btn {
+  width: 100%;
+  justify-content: space-between;
+  left: 0;
+  padding: 0 3rem;
+}
+.my_profile_body .tab-content .tab-pane .default_info .edit_btn {
+  padding-bottom: 2.5rem;
+  box-shadow: inset 0px -1px 0px var(--gray-2);
+}
+.my_profile_body .tab-content .tab-pane .default_info {
+  padding-top: 12rem;
+}
+.my_profile_body .tab-content .tab-pane .address_add {
+  width: 100%;
+  height: 84.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my_profile_body .tab-content .tab-pane .address_add a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.my_profile_body .tab-content .tab-pane .address_add a .btn_text {
+  padding-top: 1.625rem;
+  color: var(--black);
+}
+.my_profile_body .tab-content .tab-pane .vd_btn {
+  margin-top: 4.75rem;
+}
+.my_profile_body .tab-content .tab-pane .ongoing {
+  padding-bottom: 5rem;
+}
+.my_profile_body .tab-content .tab-pane .ongoing > p,
+.my_profile_body .tab-content .tab-pane .completed > p {
+  padding-bottom: 2rem;
+}
+.my_profile_body .tab-content .wish_products > .row {
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+  margin-top: -5rem;
+}
+.my_profile_body .tab-content .wish_products > .row > * {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 5rem;
+}
+.my_addresses .default_info {
+  padding: 4rem 3rem;
+  background-color: var(--gray-1);
+  position: relative;
+}
+.my_addresses .my_address_row {
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+}
+.my_addresses .my_address_row > * {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.my_addresses .my_address_row .default_info,
+.my_addresses .my_address_row .address_add {
+  border: 1px solid var(--gray-3);
+}
+.my_addresses .my_address_row .default {
+  border: 1px solid var(--black);
+}
+.my_addresses .my_address_row .da_text {
+  margin-top: 2.5rem;
+  margin-bottom: 3.75rem;
+} 
+.body_text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.profile_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+}
+.profile_buttons .btn_text{
+    color: var(--black);
+}
+.my_profile_body .nav-tabs p {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gray-5);
+  background: none;
+  outline: none;
+  padding-bottom: 1.7rem;
+  position: relative;
+}
+
+.my_profile_body .nav-tabs p.active {
+  color: var(--black);
+}
+
+.my_profile_body .nav-tabs p.active::before {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--gray-5);
+}
+
+.my_profile_body .order_details {
+  display: flex;
+  justify-content: space-between;
+}
+.my_profile_body .order_details .code_and_delevery{
+  flex:  0 0 60%;
+  width: 60%;
+}
+
+.my_profile_body .order_details {
+  border: 2px solid #f2f2f2;
+  padding: 2.4rem 2.4rem 2.2rem;
+}
+
+.my_profile_body .order_details p > span {
+  padding-left: 1.5rem;
+}
+
+.my_profile_body .order_details .order_code span{
+  color: var(--black);
+}
+.my_profile_body .order_details .order_price{
+  color: var(--gray-5);
+}
+.my_profile_body .order_details .order_code {
+  padding-bottom: 1.7rem;
+  color: var(--gray-5);
+}
+.my_profile_body .order_status {
+  display: flex;
+  align-items: center;
+}
+.my_profile_body .order_status span{
+  color: var(--gray-5);
+}
+
+.my_profile_body .order_details .order_sign {
+  width: 10.25rem;
+  padding: 0.8rem 0;
+  margin-left: 1.5rem;
+  text-align: center;
+  flex: 0 0 38%;
+}
+
+.my_profile_body .order_details .delevery {
+  background: #2196531a;
+  color: #219653;
+}
+
+.my_profile_body .order_details .panding {
+  background: #f2994a1a;
+  color: #f2994a;
+}
+
+@media (max-width: 575.98px) {
+  .my_profile_section .container {
+    padding: 4rem;
+  }
+  .my_profile_body .nav-tabs li:not(:last-child) {
+    margin-right: 8.5rem;
+  }
+  .my_profile_body .tab-content .tab-pane .address_add {
+    height: 50vh;
+} 
+
+}

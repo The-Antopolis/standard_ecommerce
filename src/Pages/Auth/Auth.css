@@ -1,0 +1,38 @@
+.page_logo {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+a.forgot_pass {
+    display: block;
+    color: var(--black);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 3rem;
+}
+.dha_box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 6rem;
+}
+a.sign_up {
+    display: inline-block;
+    color: var(--black);
+    text-transform: uppercase;  
+}
+.dha_box p {
+    color: var(--gray-5);
+    margin-right: 1rem;
+}
+.recover_pass.two .input_group p {
+    color: var(--gray-6);
+}
+.recover_pass.two .input_group p span {
+    color: var(--black);
+}
+
+@media (max-width:575.78px) {
+    .login_page .container{
+        padding: 0;
+    }
+}

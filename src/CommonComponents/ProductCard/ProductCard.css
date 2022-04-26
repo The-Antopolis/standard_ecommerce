@@ -1,0 +1,27 @@
+.pc_wrapper{
+     position: relative;
+}
+.pc_wrapper .fav_btn{
+    position: absolute;
+    top: 1.2rem;
+    right: 1.2rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var( --white );
+}
+.pc_wrapper .product_img img{
+    width: 100%;
+}
+.pc_wrapper .Product_card_content{
+    padding-top: 1.4rem;
+}
+.pc_wrapper .Product_card_content .product_title{
+    padding-bottom: .2rem;
+}
+.pc_wrapper .Product_card_content .product_title h6{
+    color: var(--black );
+}
+.pc_wrapper .Product_card_content .product_price h6{
+    color: var(--gray-5 );
+}

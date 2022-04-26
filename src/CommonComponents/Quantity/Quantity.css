@@ -1,0 +1,35 @@
+.quantity {
+  display: flex;
+  justify-content: space-around;
+  width: 20.625rem;
+  padding: 1.75rem 0;
+  border: 1px solid #949494;
+  align-items: center;
+}
+
+.quantity button {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: none;
+  border: none;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.quantity button svg{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.quantity button img {
+  opacity: 0.3;
+}
+
+.quantity h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  color: #202020;
+}

@@ -1,0 +1,27 @@
+a.btn_menu:not(:last-of-type) {
+    margin-bottom: 1rem;
+}
+a.btn_menu  {
+    display: block;
+    color  : var(--gray-6);
+    transition: all .3s ease-in-out;
+}
+a.btn_menu:hover {
+    color: var(--black);
+}
+
+a.btn_menu>svg {
+    width      : 1.8rem;
+    height     : 1.8rem;
+    margin-left: .5rem;
+    transition: all .3s ease-in-out;
+}
+a.btn_menu:hover>svg {
+    margin-top: 4px;
+}
+a.btn_menu>svg path {
+    fill      : var(--gray-6);
+}
+a.btn_menu:hover>svg path {
+    fill      : var(--black);
+}
